@@ -12,13 +12,11 @@ Smart Dry adalah sistem jemuran otomatis yang dirancang untuk mengatasi masalah 
 * **Notifikasi:** Mengirim notifikasi ke pengguna saat terjadi perubahan status.
 
 ## Komponen Hardware
-Project ini dibangun menggunakan komponen berikut:
 * **Mikrokontroler:** ESP32
 * **Sensor:** Modul Sensor Hujan
 * **Aktuator:** Motor Stepper + Driver ULN2003
 
 ## Peta Pin (Wiring)
-Berikut adalah konfigurasi pin yang digunakan pada ESP32:
 | Komponen | Pin Pada Komponen | Pin Pada ESP32 | Fungsi |
 | :--- | :--- | :--- | :--- |
 | **Driver Motor Stepper** | IN1 | D13 | Kontrol Gerak |
