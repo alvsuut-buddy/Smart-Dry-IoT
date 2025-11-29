@@ -25,10 +25,5 @@ Berikut adalah konfigurasi pin yang digunakan pada ESP32:
 | Motor Stepper IN4 | D27 |
 | Sensor Hujan (DO) | D34 |
 
-![Wiring Diagram](docs/peta-pin.png)
-*(Note: Upload gambar Peta Pin dari laporan Anda ke folder docs dan link di sini)*
+![Peta Pin](docs/peta-pin.png)
 
-## 💻 Cara Kerja Sistem
-1.  **Sensor** mendeteksi kondisi air/hujan.
-2.  **ESP32** memproses data. Jika `rainStatus == LOW` (Hujan), motor stepper berputar mundur untuk menarik jemuran.
-3.  **Blynk** menerima update status "Hujan Terdeteksi" dan "Jemuran di Dalam".
