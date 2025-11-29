@@ -2,19 +2,22 @@
 
 Smart Dry adalah sistem jemuran otomatis yang dirancang untuk mengatasi masalah cuaca tak menentu di Indonesia. Alat ini secara otomatis menarik pakaian ke tempat teduh saat hujan turun dan mengeluarkannya kembali saat cerah, serta dapat dipantau melalui aplikasi Blynk.
 
-## 🚀 Fitur Utama
+## Prototype
+![prototype](docs/prorotype.jpg)
+
+## Fitur Utama
 * **Deteksi Hujan Otomatis:** Menggunakan sensor hujan untuk menarik jemuran masuk secara otomatis.
 * **Monitoring Real-time:** Memantau status cuaca dan posisi jemuran melalui smartphone.
 * **Kontrol Manual:** Mode manual via aplikasi Blynk untuk mengontrol jemuran tanpa menunggu sensor.
 * **Notifikasi:** Mengirim notifikasi ke pengguna saat terjadi perubahan status.
 
-## 🛠️ Komponen Hardware
+## Komponen Hardware
 Project ini dibangun menggunakan komponen berikut:
 * **Mikrokontroler:** ESP32
 * **Sensor:** Modul Sensor Hujan
 * **Aktuator:** Motor Stepper + Driver ULN2003
 
-## 🔌 Peta Pin (Wiring)
+## Peta Pin (Wiring)
 Berikut adalah konfigurasi pin yang digunakan pada ESP32:
 | Komponen | Pin Pada Komponen | Pin Pada ESP32 | Fungsi |
 | :--- | :--- | :--- | :--- |
@@ -29,4 +32,3 @@ Berikut adalah konfigurasi pin yang digunakan pada ESP32:
 | | GND | GND | Ground |
 
 ![Peta Pin](docs/peta-pin.png)
-
