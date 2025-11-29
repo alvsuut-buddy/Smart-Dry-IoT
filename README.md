@@ -19,13 +19,13 @@ Berikut adalah konfigurasi pin yang digunakan pada ESP32:
 | Komponen | Pin Pada Komponen | Pin Pada ESP32 | Fungsi |
 | :--- | :--- | :--- | :--- |
 | **Driver Motor Stepper** | IN1 | D13 | Kontrol Gerak |
-| (ULN2003) | IN2 | D12 | Kontrol Gerak |
+| | IN2 | D12 | Kontrol Gerak |
 | | IN3 | D14 | Kontrol Gerak |
 | | IN4 | D27 | Kontrol Gerak |
 | | + (Plus) | Vin | Power (5V) |
 | | - (Minus) | GND | Ground |
 | **Sensor Hujan** | DO (Digital Out) | D34 | Kirim Data Hujan |
-| (Raindrops Module) | VCC | Vin | Power |
+| | VCC | Vin | Power |
 | | GND | GND | Ground |
 
 ![Peta Pin](docs/peta-pin.png)
