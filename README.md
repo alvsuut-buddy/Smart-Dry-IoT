@@ -10,20 +10,23 @@ Smart Dry adalah sistem jemuran otomatis yang dirancang untuk mengatasi masalah 
 
 ## 🛠️ Komponen Hardware
 Project ini dibangun menggunakan komponen berikut:
-* **Mikrokontroler:** ESP32 DOIT DEVKIT V1
+* **Mikrokontroler:** ESP32
 * **Sensor:** Modul Sensor Hujan (Raindrops Module)
 * **Aktuator:** Motor Stepper + Driver ULN2003
-* **Software:** Arduino IDE & Blynk IoT Platform
 
 ## 🔌 Peta Pin (Wiring)
 Berikut adalah konfigurasi pin yang digunakan pada ESP32:
-| Komponen | Pin ESP32 |
-| :--- | :--- |
-| Motor Stepper IN1 | D13 |
-| Motor Stepper IN2 | D12 |
-| Motor Stepper IN3 | D14 |
-| Motor Stepper IN4 | D27 |
-| Sensor Hujan (DO) | D34 |
+| Komponen | Pin Pada Komponen | Pin Pada ESP32 | Fungsi |
+| :--- | :--- | :--- | :--- |
+| **Driver Motor Stepper** | IN1 | D13 | Kontrol Gerak |
+| (ULN2003) | IN2 | D12 | Kontrol Gerak |
+| | IN3 | D14 | Kontrol Gerak |
+| | IN4 | D27 | Kontrol Gerak |
+| | + (Plus) | Vin | Power (5V) |
+| | - (Minus) | GND | Ground |
+| **Sensor Hujan** | DO (Digital Out) | D34 | Kirim Data Hujan |
+| (Raindrops Module) | VCC | Vin | Power |
+| | GND | GND | Ground |
 
 ![Peta Pin](docs/peta-pin.png)
 
