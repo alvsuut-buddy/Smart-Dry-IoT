@@ -11,7 +11,7 @@ Smart Dry adalah sistem jemuran otomatis yang dirancang untuk mengatasi masalah 
 ## 🛠️ Komponen Hardware
 Project ini dibangun menggunakan komponen berikut:
 * **Mikrokontroler:** ESP32
-* **Sensor:** Modul Sensor Hujan (Raindrops Module)
+* **Sensor:** Modul Sensor Hujan
 * **Aktuator:** Motor Stepper + Driver ULN2003
 
 ## 🔌 Peta Pin (Wiring)
