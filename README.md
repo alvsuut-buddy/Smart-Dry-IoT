@@ -3,10 +3,10 @@
 Smart Dry adalah sistem jemuran otomatis yang dirancang untuk mengatasi masalah cuaca tak menentu di Indonesia. Alat ini secara otomatis menarik pakaian ke tempat teduh saat hujan turun dan mengeluarkannya kembali saat cerah, serta dapat dipantau melalui aplikasi Blynk.
 
 ## Prototype
-![prototype](docs/prorotype.jpg)
+![prototype](docs/prototype.jpeg)
 
 ## Demo
-![Demo IoT](docs/demo-smartdry.mp4)
+https://github.com/alvsuut-buddy/Smart-Dry-IoT/blob/main/docs/demo-smartdry.mp4 
 
 ## Fitur Utama
 * **Deteksi Hujan Otomatis:** Menggunakan sensor hujan untuk menarik jemuran masuk secara otomatis.
