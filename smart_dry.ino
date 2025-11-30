@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL6o80RvRFT"
-#define BLYNK_TEMPLATE_NAME "SmartDry"
-#define BLYNK_AUTH_TOKEN "Nhr3zY0Jupew4qve9LWkVlCDWElTqlRk"
+#define BLYNK_TEMPLATE_ID "[BLYNK_TEMPLATE_ID]"
+#define BLYNK_TEMPLATE_NAME "[BLYNK_TEMPLATE_NAME]"
+#define BLYNK_AUTH_TOKEN "[BLYNK_AUTH_TOKEN]"
 
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
